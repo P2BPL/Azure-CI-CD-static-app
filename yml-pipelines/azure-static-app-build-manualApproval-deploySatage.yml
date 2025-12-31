@@ -8,6 +8,8 @@ trigger:
   branches:
     include:
       - master
+variables:
+- group: mystaicapp_variable_group
 
 stages:
 - stage: Build
@@ -35,7 +37,7 @@ stages:
       timeoutInMinutes: 5 # task times out in 1 day
       inputs:
         notifyUsers: |
-          03sarath@gmail.com
+          bharadwajm@zohomail.in
         instructions: 'Please validate the build configuration and resume'
         onTimeout: 'resume'
 
