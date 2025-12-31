@@ -2,7 +2,7 @@
   <div id="app">
 
     <h1>Welcome to ASI world :) </h1>
-	<h2>Upload your data to sget Gen Ai predictions</h2>
+	<h2>BM to  your data to sget Gen Ai predictions</h2>
     <img
       alt="Vue logo"
       style="width: 100px; height: 100px"
